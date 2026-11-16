@@ -1,4 +1,5 @@
-# Gamesense (Skeet) GUI — Standalone C++20 Engine
+# Gamesense (Skeet) GUI Standalone C++20 Engine
+No i am not a bot this is real, just made with AI
 
 A self-contained, standalone C++20 desktop implementation of the proprietary **Gamesense ("Skeet")** GUI and 2D rendering pipeline, completely severed from CS:GO, engine hooks, and memory manipulation.
 
