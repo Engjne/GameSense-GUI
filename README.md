@@ -5,6 +5,25 @@ A self-contained, standalone C++20 desktop implementation of the proprietary **G
 
 ---
 
+## Preview
+
+<p align="center">
+  <img src="assets/preview_rage.png" alt="Rage Tab Preview" width="88%"><br>
+  <em>Rage tab featuring checkboxes, numeric sliders, comboboxes, and multi-select dropdowns</em>
+</p>
+
+<p align="center">
+  <img src="assets/preview_misc.png" alt="Misc Tab Preview" width="88%"><br>
+  <em>Misc tab showcasing native GDI font rasterization, movement toggles, and interactive text inputs</em>
+</p>
+
+<p align="center">
+  <img src="assets/preview_players.png" alt="Player List Preview" width="88%"><br>
+  <em>Player list tab displaying column grouping, entity selection, and offset controls</em>
+</p>
+
+---
+
 ## Overview
 
 Unlike many contemporary UI projects in the game modification space that rely on Dear ImGui, the original Gamesense client implemented a bespoke, custom 2D rendering framework and immediate/retained-hybrid widget tree.
@@ -42,6 +61,7 @@ This project isolates that GUI architecture into an independent desktop applicat
 
 ```
 skeet_menu_standalone/
+├── assets/                     # Preview screenshots & resources
 ├── CMakeLists.txt              # Standard CMake build configuration
 ├── build.ps1                   # Automated PowerShell build script
 ├── run.cmd                     # One-click launcher
